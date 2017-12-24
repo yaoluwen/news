@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/introduce"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="49dp"
+        android:layout_height="72dp"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:textColor="#ffffff"
+        android:text="关于我们"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center"
+        android:lineSpacingMultiplier="1.5"
+        android:textColor="#ffffff"
+        android:minHeight="120.0dp"
+        android:paddingBottom="15.0dp"
+        android:textSize="20dp"
+        android:paddingLeft="20.0dp"
+        android:paddingRight="20.0dp"
+        android:text="移动新闻客户端凭借其丰富的资讯资源、实时的信息推送和方便的社交互动被越来越多的用户认可。互联网的逐渐普及和移动终端的迅速发展影响着受众媒介接触习惯的改变。现代生活的快节奏使得人们只能忙里偷闲。在公交车上、地铁上或是排队等候时，随处可见拿着手机埋头阅读的人群。手机阅读不仅能快速获取新闻信息，同时契合了碎片化时代读者的便捷性、片段化和主动性的需求。"
+        android:paddingTop="15.0dip" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:background="#ffd0d0d0" />
+
+    <Button
+        android:id="@+id/positiveButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:textSize="35sp"
+        android:background="#00000000"
+        android:gravity="center"
+        android:onClick="sure"
+        android:text="确定"
+        android:textColor="#ffffff" />
+</LinearLayout>
